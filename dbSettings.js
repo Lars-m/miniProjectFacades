@@ -1,5 +1,7 @@
-const  DB_URI = "mongodb://miniprojectusr:test@ds213118.mlab.com:13118/miniproject";
-const TEST_DB_URI = "mongodb://test:test@ds119969.mlab.com:19969/miniproject_test";
+const  DB_URI = "ADD CONNECTION STRING TO YOUR 'PRODUCTION DB'";
+const TEST_DB_URI = "ADD CONNECTION STRING TO YOUR TEST DB";
+
+//default timeout for Mocha async tests
 const MOCHA_TEST_TIMEOUT = 5000;
 
 

@@ -9,12 +9,6 @@ var Position = require("../models/position");
 let connection = null;
 
 
-/* Connect to the TEST-DATABASE */
-// before(async function () {
-//   dbSetup.setDbUri(TEST_DB_URI);
-//   connection = await dbSetup.connect();
-// })
-
 
 describe("Testing the LoginFacade", function () {
 
